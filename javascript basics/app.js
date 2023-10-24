@@ -1,13 +1,18 @@
-//document.write('hello world');
-//alert("hello world");
-//console.log("hello world");
+// Variable - Most Basic Building Block
+// Variables - Store, Access, Modify === Value
+// Declare, Assignment Operator, Assign Value
 
-document.write("hello world");
-document.write({ name: "igor" });
+let name1 = "Igor Teste de Nome";
 
-alert("hello world");
-alert({ name: "igor" });
-
-// sempre melhor usar o console.log
-console.log("hello world");
-console.log({ name: "igor" }); // para objetos é melhor usar o console.log
+console.log(name1);
+//some code here
+console.log(name1);
+//some code here
+console.log(name1);
+//some code here
+console.log(name1);
+//some code here
+console.log(name1);
+//some code here
+console.log(name1);
+//some code here
