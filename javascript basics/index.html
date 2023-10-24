@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Basics - inline js</title>
+    <title>JavaScript Basics</title>
   </head>
   <body>
     <h1>Hello World</h1>
     <h4>Hello people</h4>
 
-    <button onclick="alert('test button')">click me</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+
+    <script>
+      document.querySelectorAll(".btn").forEach((item) => {
+        item.addEventListener("click", () => {
+          alert("this is a button test");
+        });
+      });
+    </script>
   </body>
 </html>
