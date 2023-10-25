@@ -1,17 +1,22 @@
-// Variable - Most Basic Building Block
-// Variables - Store, Access, Modify === Value
-// Declare, Assignment Operator, Assign Value
-// Assign value later, modify existing
+// can contain digits, letters, underscore, $
+// must start with letter, $ or _
 
-let name1 = "Igor Teste de Nome";
-let address, zip, state;
+// no keyword
+// cannot start with number
 
-address = "rua dom cirilo, ";
-zip = "49118450, ";
-state = "MS";
+// case sensitive - fullname vs Fullname
 
-console.log(name1);
-console.log(address, zip, state);
+// camelCase or underscore
 
-name1 = "igor em minusculo teste 2";
-console.log(name1);
+let random_123$ = "random123";
+console.log(random_123$);
+
+let full_name = "random full name";
+console.log(full_name);
+
+let fullName = "random full name test 2";
+console.log(fullName);
+
+// nao vai funcionar pq esta escrito diferente
+let fullnamee = "random teste";
+console.log(fullNamee);
