@@ -1,51 +1,32 @@
-// Numbers
-// Loosely Typed = don't declare type
+// Implicit Type Conversion
 
-const number = 34;
-// let pants = 2.466;
-// pants = 'are great';
-const number2 = 2.456;
-const number3 = "2.456";
+// const name = 'john';
+// const lastName = 'jordan';
+// const fullName = name + ' ' + lastName;
+// console.log(fullName);
 
-const add = number + number2;
-const sub = number - number2;
-const mult = number * number2;
-const div = number / number2;
+// const number = 4;
+// const number2 = 10;
+// const result = number + number2;
+// console.log(result);
 
-console.log(add);
-console.log(sub);
-console.log(mult);
-console.log(div);
-console.log(number3);
+// const value = name - lastName;
+// console.log(value);
 
-// Numbers
-// +=, -=, /=, *=, ++ , --, %
-// Modulus (%) operator returns the remainder after integer division
+// let number3 = 10;
+// let number4 = 23;
+// // 100 lines
+// number4 = '23';
+// const result2 = number3 + number4;
+// console.log(result2);
 
-let n1 = 40;
-console.log(n1);
-n1 += 5;
-console.log(n1);
-n1 += 5;
-n1 += 5;
-n1 += 5;
-n1 += 5;
-console.log(n1);
-n1++;
-n1++;
-n1++;
-n1++;
-console.log(n1);
-
-//resto da divisao
-const pizza = 10;
-const criancas = 3;
-const pedacos = pizza % criancas;
-
-console.log(pedacos);
-
-//paresentes nos operadores importante
-const res1 = 1 + 1 + 1 * 10;
-const res2 = (1 + 1 + 1) * 10;
-console.log(res1);
-console.log(res2);
+const randomNumber = 13;
+document.querySelector(".form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  let value = document.getElementById("amount").value;
+  value = parseInt(value); //essa linha muda tudo
+  console.log("Input Value Type");
+  console.log(value);
+  console.log("Sum of Two Values");
+  console.log(randomNumber + value);
+});
