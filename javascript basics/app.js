@@ -1,36 +1,18 @@
-// Implicit Type Conversion
+// Arrays, Functions and Objects
+// Arrays - [], 0 index based
 
-// const name = 'john';
-// const lastName = 'jordan';
-// const fullName = name + ' ' + lastName;
-// console.log(fullName);
+const friend1 = "anna";
+const friend2 = "anna";
+const friend3 = "anna";
+const friend4 = "anna";
 
-// Data Types - 7 total
-// Primitive - String, Number, Boolean, Null, Undefined, Symbol
-// Object - Arrays, Functions, Objects
+const friends = ["john", "peter", "bob", "susy", 45, undefined, null];
 
-// typeof - operator (typeof variable) (typeof value)
+let bestFriend = friends[2];
+friends[4] = "anna";
+console.log(friends);
+console.log(friends[4]);
 
-// String
-const text = "some text";
+console.log(bestFriend);
 
-// Number
-const number = 45;
-
-// Boolean
-let value1 = true;
-let value2 = false;
-
-// Null
-const result = null;
-
-// Undefined
-let name;
-
-// Symbol(ES6)
-console.log(typeof text);
-console.log(typeof true);
-console.log(typeof number);
-console.log(typeof value1);
-console.log(typeof value2);
-console.log(typeof null);
+console.log(friends[3]);
