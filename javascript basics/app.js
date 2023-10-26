@@ -1,18 +1,12 @@
-// LET VS CONST VS VAR
+// String Concatenation - combine string values
+// `` - backticks (template strings) easier option.
 
-// using var
-var value = "some value";
-value = "some other value";
+const name = "igor";
+const lastName = "da conceicao";
+let fullName = name + " " + lastName;
 
-// using let
-let name1 = "john";
-name1 = "peter";
+console.log("Hello there your full name is : " + fullName);
 
-// using const (CONSTANT) - can't re-assign
-const lastName = "smith";
-
-console.log(value);
-console.log(name1);
-console.log(lastName);
-
-console.log(name1, lastName);
+const website = "youtube";
+const url = "https://www." + website + ".com";
+console.log(url);
