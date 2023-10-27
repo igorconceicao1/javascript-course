@@ -16,3 +16,5 @@ console.log(friends[4]);
 console.log(bestFriend);
 
 console.log(friends[3]);
+
+console.log(typeof friends);
