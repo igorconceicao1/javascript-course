@@ -11,3 +11,20 @@
 7. refactor "calculateTotal" to function expression
 
 */
+
+const calculateResult = function (subTotal, tax) {
+    sum = subTotal + tax;
+    return sum;
+}
+
+const order1 = calculateResult(1,1);
+const order2 = calculateResult(2,2);
+const order3 = calculateResult(3,3);
+
+const total = [order1, order2, order3];
+console.log(total);
+
+console.log(order1,order2, order3);
+
+
+
