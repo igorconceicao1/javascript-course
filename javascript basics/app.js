@@ -1,39 +1,54 @@
-// Arrays, Functions and Objects
-// Objects - key/value pairs methods
-// dot notation para acessar os methodos 
+//Conditional Statements
+// > < >= <=  == === != !===
+// == checks only value
+// === checks value and type
 
-const person = {
-  name: 'Igor',
-  lastName: 'Da Conceicao Silva Delgado',
-  age: 28,
-  education: true,
-  married: false,
-  siblings: ['paloma', 'teste', 'teste2'],
-  hello: function() {
-    console.log("Teste de funcao que vai virar metodo");
-  },
+const value = false;
+console.log(typeof value);
 
-  hello2(){
-    console.log('Teste de funcao sem o function escrito');
-  },
+const value2 = 1 > 2;
 
-  hello3: function helloTest() {
-    console.log('Teste de funcao com o function e o nome da funcao escrita');
-  }
+if (value2) {
+  console.log("valor verdadeiro");
+} else {
+  console.log("valor falso");
 }
 
-//But again, in the object setting, this is a method essentially, once you are going to invoke the function, it is going to be a method, just something to keep in mind.
+const num1 = 6;
+const num2 = 6;
 
-console.log(person.name);
-console.log(person.education);
-console.log(person.siblings[2]);
-person.hello();
+if (num1 > num2) {
+  console.log("primeiro numero maior");
+} else if (num1 >= num2) {
+  console.log("primeiro e maior ou igual");
+} else {
+  console.log("segundo numero maior");
+}
 
-const age = person.age;
-console.log(age)
+const num3 = 6;
+const num4 = "6";
+const value3 = num3 == num4;
+const value4 = num3 === num4;
 
-person.name = 'Iggor'
-console.log(person.name);
+console.log(value3);
+console.log(value4);
 
-person.hello2();
-person.hello3();
+const num5 = 6;
+const num6 = "6";
+const value5 = num5 != num6;
+const value6 = num5 !== num6;
+
+console.log(value5);
+console.log(value6);
+
+//Logical Operators
+// (|| - OR) (&& - AND), !
+
+const name1 = "peter";
+const age = 24;
+
+if (name1 === "bob" || age === 24) {
+  console.log("operador logico funcionou");
+} else {
+  console.log("operador logico nao funcionou");
+}

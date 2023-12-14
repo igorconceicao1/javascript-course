@@ -13,20 +13,20 @@
 */
 
 const car = {
-    make: 'Volvo',
-    model: 'x70',
-    year: 1999,
-    colors: ['black', 'blue', 'yellow', 'red'],
-    hybrid: false,
+  make: "Volvo",
+  model: "x70",
+  year: 1999,
+  colors: ["black", "blue", "yellow", "red"],
+  hybrid: false,
 
-    drive() {
-        console.log('You can drive');
-    },
+  drive() {
+    console.log("You can drive");
+  },
 
-    stop: function() {
-        console.log("You can stop your car here");
-    },
-}
+  stop: function () {
+    console.log("You can stop your car here");
+  },
+};
 
 console.log(car.make, car.model, car.year, car.colors[0], car.hybrid);
 
