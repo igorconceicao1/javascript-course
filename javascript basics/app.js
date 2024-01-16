@@ -1,27 +1,25 @@
-//Switch
-// dice values: 1-6
+//Loops
+// repeatedly run a block of code while condition is true
+// while loop
+//TURN OFF AUTOSAVE
+// I need to use a let, because i will change the value
 
-const dice = 5;
+let amount = 10;
 
-switch (dice) {
-  case 1:
-    console.log("seu numero eh 1");
-    break;
-  case 2:
-    console.log("seu numero eh 2");
-    break;
-  case 3:
-    console.log("seu numero eh 3");
-    break;
-  case 4:
-    console.log("seu numero eh 4");
-    break;
-  case 5:
-    console.log("seu numero eh 5");
-    break;
-  case 6:
-    console.log("seu numero eh 6");
-    break;
-  default:
-    console.log("numero nao achado");
+while (amount >= 0) {
+  console.log("I have " + amount + " dollars in my bank account");
+  amount--; // how do you scape from the loop
 }
+
+// do while loops
+// repeatedly run a block of code while condition is true
+// do while loop
+// code block first, condition second
+// runs at least one
+
+let money = 0;
+
+do {
+  console.log("You have " + money + " dollars");
+  money++;
+} while (money <= 10);
