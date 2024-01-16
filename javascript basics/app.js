@@ -1,25 +1,12 @@
 //Loops
 // repeatedly run a block of code while condition is true
-// while loop
-//TURN OFF AUTOSAVE
-// I need to use a let, because i will change the value
+// for loop
 
-let amount = 10;
+// let i;
+// for (i = 0; i <= 10; i++) {
+//   console.log("O numero eh: " + i);
+// }
 
-while (amount >= 0) {
-  console.log("I have " + amount + " dollars in my bank account");
-  amount--; // how do you scape from the loop
+for (let number = 11; number >= 0; number--) {
+  console.log("O numero eh: " + number);
 }
-
-// do while loops
-// repeatedly run a block of code while condition is true
-// do while loop
-// code block first, condition second
-// runs at least one
-
-let money = 0;
-
-do {
-  console.log("You have " + money + " dollars");
-  money++;
-} while (money <= 10);
